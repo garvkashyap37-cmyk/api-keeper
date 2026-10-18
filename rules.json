@@ -1,20 +1,272 @@
 [
   {
     "vendor": "openai",
-    "old": "text-davinci-003",
-    "new": "VERIFY_ON_VENDOR_PAGE",
+    "old": "gpt-3.5-turbo-0125",
+    "new": "gpt-5.6-terra",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-3.5-turbo",
+    "new": "gpt-5.6-terra",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4-0613",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4-1106-preview",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4-turbo",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4.1-nano",
+    "new": "gpt-5.6-luna",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4o-2024-05-13",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "o1",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "Short name: check each match, it may not be the model.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "o1-pro",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": false,
+    "note": "Page says use reasoning.mode: pro with the new model.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "o3-mini",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "o4-mini",
+    "new": "gpt-5.6-terra",
+    "shutdown": "2026-10-23",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-image-1",
+    "new": "gpt-image-2.5-sunburst",
+    "shutdown": "2026-10-23",
+    "drop_in": false,
+    "note": "Page also allows gpt-image-2.5-flare. Check image parameters.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-image-1-mini",
+    "new": "gpt-image-2.5-sunburst",
+    "shutdown": "2026-12-01",
+    "drop_in": false,
+    "note": "Page also allows gpt-image-2.5-flare.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-image-1.5",
+    "new": "gpt-image-2.5-sunburst",
+    "shutdown": "2026-12-01",
+    "drop_in": false,
+    "note": "Page also allows gpt-image-2.5-flare.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-5-2025-08-07",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-12-11",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-5-mini-2025-08-07",
+    "new": "gpt-5.6-terra",
+    "shutdown": "2026-12-11",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-5-nano-2025-08-07",
+    "new": "gpt-5.6-luna",
+    "shutdown": "2026-12-11",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "o3-2025-04-16",
+    "new": "gpt-5.6-sol",
+    "shutdown": "2026-12-11",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4o-2024-08-06",
+    "new": "gpt-6-luna",
+    "shutdown": "2027-01-14",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4o-2024-11-20",
+    "new": "gpt-6-luna",
+    "shutdown": "2027-01-14",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4o-mini-2024-07-18",
+    "new": "gpt-6-luna",
+    "shutdown": "2027-01-14",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4.1-2025-04-14",
+    "new": "gpt-6-luna",
+    "shutdown": "2027-01-14",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4.1-mini-2025-04-14",
+    "new": "gpt-6-luna",
+    "shutdown": "2027-01-14",
+    "drop_in": true,
+    "note": "",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "whisper-1",
+    "new": "gpt-transcribe",
+    "shutdown": "2027-02-26",
+    "drop_in": false,
+    "note": "Page also allows gpt-live-transcribe. Different API usage.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-4-0314",
+    "new": "gpt-5",
+    "shutdown": "2026-03-26",
+    "drop_in": true,
+    "note": "Page says gpt-5 or gpt-4.1.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "gpt-3.5-turbo-1106",
+    "new": "gpt-5.6-terra",
+    "shutdown": "2026-09-28",
+    "drop_in": true,
+    "note": "",
     "source": "https://platform.openai.com/docs/deprecations"
   },
   {
     "vendor": "openai",
     "old": "gpt-3.5-turbo-0301",
-    "new": "VERIFY_ON_VENDOR_PAGE",
+    "new": "gpt-5.6-terra",
+    "shutdown": "2024-09-13",
+    "drop_in": true,
+    "note": "Page's old replacement is itself shut down now.",
     "source": "https://platform.openai.com/docs/deprecations"
   },
   {
-    "vendor": "anthropic",
-    "old": "claude-instant-1.2",
-    "new": "VERIFY_ON_VENDOR_PAGE",
-    "source": "https://docs.claude.com"
+    "vendor": "openai",
+    "old": "text-davinci-003",
+    "new": "gpt-5.6-terra",
+    "shutdown": "2024-01-04",
+    "drop_in": false,
+    "note": "Completions model: code must move to chat/responses format.",
+    "source": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "vendor": "openai",
+    "old": "dall-e-3",
+    "new": "gpt-image-2",
+    "shutdown": "2026-05-12",
+    "drop_in": false,
+    "note": "Image API parameters differ.",
+    "source": "https://platform.openai.com/docs/deprecations"
   }
 ]
