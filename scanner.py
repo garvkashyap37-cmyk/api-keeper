@@ -21,6 +21,8 @@ def scan(root, rules):
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
         for name in filenames:
+            if name == "rules.json":
+                 continue
             if os.path.splitext(name)[1].lower() not in EXTENSIONS:
                 continue
             path = os.path.join(dirpath, name)
